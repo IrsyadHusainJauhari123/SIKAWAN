@@ -47,27 +47,42 @@
                         No.78811,
                         Sampit, Kec. Delta
                         Pawan, Kabupaten Ketapang, Kalimantan Barat 78811</h4>
-                    <p><i class="fa fa-phone-alt me-3"></i>0534 - 3030 686</p>
-                    <p i class="fa fa-envelope me-3"></i>Kecamatan Delta
-                        pawan@gmail.com</p>
+                    <hr>
+                    <p style="color: white">Hubungi Kontak Dibawah Ini :</p><br>
+                    <p style="color: white"><i class="fa fa fa-whatsapp"></i> 081345368036</p style="color: white">
+                    <p style="color: white"><i class="fa fa fa-phone"></i> 081345368036</p style="color: white">
+                    <p style="color: white"><i class="fa fa fa-commenting"></i> 081345368036</p style="color: white">
+                    <br>
+                    <h5 style="color: white"> <i class="fa  fa-envelope"> deltapawan@ketapangkab.go.id</h5></i>
+                    <hr>
 
 
 
                 </div>
+
+
                 <div style="margin-left: 5%" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-col service-col">
-                        <h3 style="color: white" class="text-white mb-4">Services</h3>
+                        <h3 style="color: white" class="text-white mb-4">Motto</h3>
                         <hr>
-
+                        <h4 style="color: white" style="font-family: sans-serif">
+                            Memberikan Pelayanan Yang Terbaik Bagi Masyarakat, Agar Tercapai Tujuan Bangsa
+                        </h4>
+                        <hr>
                         <ul class="list-inline footer-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="{{ url('https://www.facebook.com/kecamatan.deltapawan.100') }}"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li><a href="{{ url('https://github.com/IrsyadHusainJauhari123') }}"><i
+                                        class="fa fa-github"></i></a></li>
+                            <li><a href="{{ url('https://id.wikipedia.org/wiki/Delta_Pawan,_Ketapang') }}"><i
+                                        class="fa fa-google-plus"></i></a></li>
                             {{-- <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li> --}}
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="{{ url('https://instagram.com/deltapawankite?igshid=YmMyMTA2M2Y=') }}"><i
+                                        class="fa fa-instagram"></i></a></li>
                         </ul>
 
                     </div>
+                    <hr>
                 </div>
                 <div style="margin-right: -7%" class="col-lg-3 ">
                     <iframe

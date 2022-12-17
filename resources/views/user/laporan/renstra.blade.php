@@ -1,3 +1,4 @@
+\
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,43 +59,32 @@
                     </div> --}}
 
                     <section class="col-sm-12">
-                        <div class="col-sm-12 wow fadeIn" data-wow-delay="0.1s">
+                        <div style="margin-left: 60%" class="col-sm-12 wow fadeIn" data-wow-delay="0.1s">
                             <h2 style="font-family: sans-serif" style="font-size: 30px" class="mb-2">
                                 {{ $renstra->judul }}</h2>
                             <hr>
 
-                        </div>
+                        </div><br>
 
 
-                        <p style="margin-inline-end: 50%" style="font-family: 'Times New Roman', Times, serif"
+                        <p style="margin-left: 60%" style="font-family: 'Times New Roman', Times, serif"
                             style="color: black" style="margin: 10px" style="font-size: 10px" style="margin: 10px">
                             {{ $renstra->deskripsi }}
 
 
                         </p>
-                        <iframe style="margin-left: 60%" allow="autoplay" height="480"
+                        <iframe style="margin-top: -10%" allow="autoplay" height="480"
                             src="{{ "/public/$renstra->file" }}" width="640"></iframe>
                         <hr>
-
-
-
-                        <p>
-                        </p>
-
-
-
                     </section>
 
                 </div>
-
-                <div class="row">
-                </div>
-
             </div>
         </div>
     @endforeach
     <br>
     <br>
+    </div>
 
 
 

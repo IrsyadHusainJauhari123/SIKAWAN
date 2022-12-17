@@ -30,7 +30,7 @@ class PotensiController extends Controller
         $kegiatan->HandleUploadFoto();
         $kegiatan->save();
 
-        return redirect('kegiatan')->with('success', 'Kegiatan Berhasil Ditambah');
+        return redirect('kegiatan')->with('success', 'Data Berhasil Ditambah');
     }
 
     function show(kegiatan $kegiatan)

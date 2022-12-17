@@ -5,7 +5,14 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Berita;
+use App\Models\Kebudayaan;
 use App\Models\Kegiatan;
+use App\Models\Kelurahan;
+use App\Models\Layanan;
+use App\Models\Pariwisata;
+use App\Models\Pemerintah;
+use App\Models\Pendidikan;
+use App\Models\Profil;
 
 class HomeController extends Controller
 {
@@ -17,6 +24,14 @@ class HomeController extends Controller
     {
         $data['berita'] = Berita::all();
         $data['kegiatan'] = Kegiatan::all();
+        $data['kelurahan'] = Kelurahan::all();
+        $data['pariwisata'] = Pariwisata::all();
+        $data['kebudayaan'] = Kebudayaan::all();
+        $data['layanan'] = Layanan::all();
+        $data['pendidikan'] = Pendidikan::all();
+        $data['profil'] = Profil::all();
+        $data['pemerintah'] = Pemerintah::all();
+
         return view('admin.dashboard', $data);
     }
 

@@ -32,7 +32,7 @@ class KelurahanController extends Controller
         $kelurahan->alamat = request('alamat');
         $kelurahan->isi = request('isi');
         $kelurahan->save();
-        return redirect('kelurahan')->with('succes', 'Data Berhasil DiTambah');
+        return redirect('kelurahan')->with('success', 'Data Berhasil DiTambah');
     }
 
     function show(Kelurahan $kelurahan)

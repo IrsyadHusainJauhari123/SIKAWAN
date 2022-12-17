@@ -28,7 +28,7 @@ class BerandaController extends Controller
         $beranda->HandleUploadFoto();
         $beranda->save();
 
-        return redirect('beranda')->with('success', 'Data  Telah Ditambah');
+        return redirect('beranda')->with('success', 'Data Berhasil   Telah Ditambah');
     }
 
     function show(Beranda $beranda)

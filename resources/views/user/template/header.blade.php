@@ -148,14 +148,14 @@
     <div class="container-fluid">
         <div class="mainmenu-bg" style="background-color: white">
             <div class="row">
-                <div class="col-md-3">
-                    <div style="size: 80px" style="padding-left: 25px" style="margin: 10px; width: 40%;" class="logo">
-                        <center> <img src="{{ url('public') }}/ketapang (3).png" alt="Awesome Logo">
+                <div style="background-size: 10%" class="col-md-3">
+                    <div style="padding-left: 20%" style="margin: 10px; width: 40%;" class="logo">
+                        <center> <img src="{{ url('public') }}/mautau.png" alt="Awesome Logo">
                         </center>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-12 col-xs-12" style="background-color: white">
+                <div style="line-height: 10%" class="col-md-9" style="background-color: white">
                     <!--Start mainmenu-->
                     <nav class="main-menu" style="background-color: white"><br>
                         <div class="navbar-header" style="background-color: white">
@@ -167,7 +167,7 @@
                             </button>
                         </div>
                         <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix mb-3">
+                            <ul class="navigation clearfix mb-6">
 
                                 <li class="dropdown"><a href="{{ url('user/beranda/beranda') }}"
                                         style="color: black">Beranda</a>
@@ -231,27 +231,34 @@
                                             class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul>
                                         <li><a href="{{ url('user/layanan/kk') }}"
-                                                style="text-align: center">Pembuatan KK</a></li>
+                                                style="text-align: center">Pembuatan KK</a>
+                                        </li>
                                         <li><a href="{{ url('user/layanan/ktp') }}"
                                                 style="text-align: center">Pembuatan
                                                 KTP</a>
                                         </li>
                                         <li><a href="{{ url('user/layanan/mikro') }}"
-                                                style="text-align: center">Surat Izin Usaha
+                                                style="text-align: center">Surat Izin
+                                                Usaha
                                                 Mikro</a></li>
                                         <li><a href="{{ url('user/layanan/pensiun') }}"
-                                                style="text-align: center">Surat Keterangan Pensiun </a></li>
+                                                style="text-align: center">Surat
+                                                Keterangan Pensiun </a></li>
                                         <li><a href="{{ url('user/layanan/waris') }}"
-                                                style="text-align: center">Surat Keterangan Waris
+                                                style="text-align: center">Surat
+                                                Keterangan Waris
                                             </a></li>
                                         <li><a href="{{ url('user/layanan/nikah') }}"
-                                                style="text-align: center">Surat Disapensasi Nikah
+                                                style="text-align: center">Surat
+                                                Disapensasi Nikah
                                             </a></li>
                                         <li><a href="{{ url('user/layanan/penelitian') }}"
-                                                style="text-align: center">Surat Izin Penelitian
+                                                style="text-align: center">Surat
+                                                Izin Penelitian
                                             </a></li>
                                         <li><a href="{{ url('user/layanan/informasi') }}"
-                                                style="text-align: center">Surat Permohonan Informasi Publik
+                                                style="text-align: center">Surat
+                                                Permohonan Informasi Publik
                                             </a></li>
                                         {{-- <li><a href="{{ url('user/layanan/waris') }}"
                                                 style="text-align: center">Surat Mutasi Guru
@@ -262,11 +269,14 @@
                                             class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul>
                                         <li><a href="{{ url('user/inovasi/pariwisata') }}"
-                                                style="text-align: center">Bidang Pariwisata</a></li>
+                                                style="text-align: center">Bidang
+                                                Pariwisata</a></li>
                                         <li><a href="{{ url('user/inovasi/kebudayaan') }}"
-                                                style="text-align: center">Bidang Kebudayaan</a></li>
+                                                style="text-align: center">Bidang
+                                                Kebudayaan</a></li>
                                         <li><a href="{{ url('user/inovasi/pendidikan') }}"
-                                                style="text-align: center">Bidang Pendidikan</a></li>
+                                                style="text-align: center">Bidang
+                                                Pendidikan</a></li>
 
                                         {{-- <li><a href="checkout.html">Checkout</a></li>
                                         <li><a href="account.html">My Account</a></li> --}}
@@ -279,11 +289,14 @@
                                         <li><a href="{{ url('user/laporan/renstra') }}"
                                                 style="text-align: center">Renstra</a></li>
                                         <li><a href="{{ url('user/laporan/pj') }}"
-                                                style="text-align: center">Penjanjian Kinerja</a></li>
+                                                style="text-align: center">Penjanjian
+                                                Kinerja</a></li>
                                         <li><a href="{{ url('user/laporan/rkt') }}"
-                                                style="text-align: center">Rencana kerja tahunaan</a></li>
+                                                style="text-align: center">Rencana kerja
+                                                tahunaan</a></li>
                                         <li><a href="{{ url('user/laporan/lkjip') }}"
-                                                style="text-align: center">LKJIP</a></li>
+                                                style="text-align: center">LKJIP</a>
+                                        </li>
                                         {{-- <li><a href="account.html">My Account</a></li> --}}
                                     </ul>
                                 </li>
@@ -366,6 +379,29 @@
                                                 style="text-align: center">Pembuatan
                                                 KTP</a>
                                         </li>
+                                        <li><a href="{{ url('user/layanan/mikro') }}"
+                                                style="text-align: center">Surat Izin
+                                                Usaha
+                                                Mikro</a></li>
+                                        <li><a href="{{ url('user/layanan/pensiun') }}"
+                                                style="text-align: center">Surat
+                                                Keterangan Pensiun </a></li>
+                                        <li><a href="{{ url('user/layanan/waris') }}"
+                                                style="text-align: center">Surat
+                                                Keterangan Waris
+                                            </a></li>
+                                        <li><a href="{{ url('user/layanan/nikah') }}"
+                                                style="text-align: center">Surat
+                                                Disapensasi Nikah
+                                            </a></li>
+                                        <li><a href="{{ url('user/layanan/penelitian') }}"
+                                                style="text-align: center">Surat
+                                                Izin Penelitian
+                                            </a></li>
+                                        <li><a href="{{ url('user/layanan/informasi') }}"
+                                                style="text-align: center">Surat
+                                                Permohonan Informasi Publik
+                                            </a></li>
                                     </ul>
                                 </li>
 
@@ -378,7 +414,21 @@
                                         <li><a href="account.html">My Account</a></li> --}}
                                     </ul>
                                 </li>
-                            </ul>
+                                <li class="dropdown"><a href="#">Data Kecamatan</a>
+                                    <ul>
+                                        <li><a href="{{ url('user/laporan/renstra') }}"
+                                                style="text-align: center">Renstra</a></li>
+                                        <li><a href="{{ url('user/laporan/pj') }}"
+                                                style="text-align: center">Penjanjian
+                                                Kinerja</a></li>
+                                        <li><a href="{{ url('user/laporan/rkt') }}"
+                                                style="text-align: center">Rencana kerja
+                                                tahunaan</a></li>
+                                        <li><a href="{{ url('user/laporan/lkjip') }}"
+                                                style="text-align: center">LKJIP</a>
+                                        </li>
+                                    </ul>
+                                </li>
                         </div>
                     </nav>
                     <!--End mainmenu-->

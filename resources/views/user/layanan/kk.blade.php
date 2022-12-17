@@ -98,8 +98,8 @@
                                 <div style="right: 13%" class="col-md-12"><br>
                                     <a href="{{ "/public/$kk->file" }}" download
                                         class="btn btn-lg btn-primary mr-xs mb-lg">DOWLOAD</a>
-                                    <a href="{{ "/public/$kk->file" }}"
-                                        class="btn btn-lg btn-warning mr-xs mb-lg">INFO</a>
+                                    {{-- <a href="{{ "/public/$kk->file" }}"
+                                        class="btn btn-lg btn-warning mr-xs mb-lg">INFO</a> --}}
                                 </div>
 
                             </div><br>

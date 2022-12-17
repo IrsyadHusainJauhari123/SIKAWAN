@@ -27,6 +27,7 @@
                                             <option value="Kk"> Surat Pembuatan KK</option>
                                             <option value="KTP"> Surat Pembuatan KTP</option>
                                             <option value="Penelitian"> Surat Izin Penelitian</option>
+                                            <option value="Mikro"> Surat Izin Usaha MIkro</option>
                                             <option value="Pensiun"> Surat Keterangan Pensiun</option>
                                             <option value="Nikah"> Surat Diapensi Nikah</option>
                                             <option value="Waris"> Surat Keterangan Waris</option>

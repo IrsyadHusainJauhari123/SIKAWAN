@@ -266,21 +266,21 @@ class ClientController extends Controller
 
     function Lkjip()
     {
-        $data['lkjip'] = DataKecamatan::where('level', 'Rkt')->get();
+        $data['lkjip'] = DataKecamatan::where('level', 'Lkjip')->get();
         return view('user.laporan.lkjip', $data);
     }
 
 
     function Pj()
     {
-        $data['pj'] = DataKecamatan::where('level', 'Rkt')->get();
+        $data['pj'] = DataKecamatan::where('level', 'Pj')->get();
         return view('user.laporan.pj', $data);
     }
 
 
     function Renstra()
     {
-        $data['renstra'] = DataKecamatan::where('level', 'Rkt')->get();
+        $data['renstra'] = DataKecamatan::where('level', 'Renstra')->get();
         return view('user.laporan.renstra', $data);
     }
 }

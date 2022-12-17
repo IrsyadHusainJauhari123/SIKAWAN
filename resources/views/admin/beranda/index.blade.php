@@ -31,8 +31,14 @@
                                                     <img style="height: 20px" src="{{ "/public/$beranda->foto" }}"
                                                         alt="">
                                                 </td>
-                                                <td>{{ $beranda->foto2 }}</td>
-                                                <td>{{ $beranda->foto3 }}</td>
+                                                <td>
+                                                    <img style="height: 20px" src="{{ "/public/$beranda->foto1" }}"
+                                                        alt="">
+                                                </td>
+                                                <td>
+                                                    <img style="height: 20px" src="{{ "/public/$beranda->foto2" }}"
+                                                        alt="">
+                                                </td>
                                                 <td>{{ $beranda->youtub }}</td>
                                                 <td>{{ $beranda->isi }}</td>
                                                 <td>

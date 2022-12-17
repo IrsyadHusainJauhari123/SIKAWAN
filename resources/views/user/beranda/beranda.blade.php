@@ -54,14 +54,14 @@
                     <div class="col-md-4">
                         <article class="iconBloghome">
                             <i style="margin-left: -5%" class="fa fa-check"></i>
-                            <table style="background-color: #f0b172" border="0" bordercolor="#ccc" cellpadding="0"
+                            <table style="background-color: #a85a0c" border="0" bordercolor="#ccc" cellpadding="0"
                                 cellspacing="0" height="500" style="background-color: beige,border-style:hidden;"
                                 width="1200">
                                 <tbody>
                                     <tr>
                                         <th halign="center" valign="top" widthpx">
-                                            <iframe width="500" height="500" src="{{ $beranda->youtub }}"
-                                                &autoplay="1" frameborder="0"
+                                            <iframe style="margin-top: 20%" width="500" height="500"
+                                                src="{{ $beranda->youtub }}" &autoplay="1" frameborder="0"
                                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                 allowfullscreen>
 
@@ -72,7 +72,8 @@
                                             <h3 align="center"><br>
                                                 <strong>Sambutan Camat Ketapang</strong>
                                                 <hr>
-                                                <p style="padding-right: 20%">{{ $beranda->isi }}</p>
+                                                <p style="padding-right: 20%" style="margin-left: 20%">
+                                                    {{ $beranda->isi }}</p>
                                                 <hr>
 
                                     </tr>
@@ -82,67 +83,66 @@
                         <br>
                         <hr>
 
-                        <i style="margin-left: -5%" class="fa fa-check"></i>
-                        <div class="container">
-                            <h2 class="btn btn-primary" class="mb-4 wow fadeIn" data-wow-delay="0.1s">berita Terbaru
-                                Kecamatan Delta Pawan
-                            </h2>
-                        </div>
-                        <div class="container">
-                            <div class="row g-5">
-
-                                @foreach ($list_berita as $berita)
-                                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                                        <strong>
-                                            <article>
-                                                <div class="card" style="background-size: 10%;" style="width: 25rem;">
-                                                    <br> <img src="{{ "/public/$berita->foto" }}" class="card-img-top"
-                                                        alt="...">
-                                                    <strong>
-                                                        <div class="card-body"
-                                                            style="background-color: rgb(245, 241, 241)">
-                                                            <br>
-                                                            <div class="text-overflow">
-                                                                <h3 style="padding: 10px"
-                                                                    style="font-family: sans-serif"
-                                                                    style="padding: 10px" style="font-size: 15px"
-                                                                    style="margin: 10px" class="card-title">
-                                                                    {{ $berita->judul }}</h3><br>
-                                                                {{-- <p class="card-text" style="color: black">{{ $berita->isi }}</p><br> --}}
-
-                                                                <p style="text-align: right" class="btn btn-danger">
-                                                                    {{ $berita->created_at->isoFormat('dddd, D MMMM Y') }}
-                                                                </p>
-
-                                                                <a href="{{ url('berita', $berita->id) }}"
-                                                                    style="background-position: right"
-                                                                    class="btn btn-primary">Read
-                                                                    More</a>
-
-                                                            </div>
-                                                        </div>
-                                                    </strong>
-                                                </div>
-                                            </article>
-                                        </strong>
-                                    </div>
-                                @endforeach
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </section><br>
-        <!-- Footer Start -->
-        @include('user.template.footer')
-        <!-- Footer End -->
+        </section>
+
+        <i style="margin-left: -5%" class="fa fa-check"></i>
 
 
-        <!-- Back to Top -->
+        <section class="call-back sec-padd2" style="background-color: #a85a0c">
+            <div class="container">
+                <marquee bgcolor="white " style="background-size: 30%">Berita Terbaru Kecamatan Delta Pawan
+                    Kabupaten
+                    Ketapang</marquee>
+                @foreach ($list_berita as $berita)
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <strong>
+                            <article>
+                                <div class="card" style="background-size: 10%;" style="width: 25rem;">
+                                    <br> <img src="{{ "/public/$berita->foto" }}" class="card-img-top" alt="...">
+                                    <strong>
+                                        <div class="card-body" style="background-color:  #f18e2b">
+                                            <br>
+                                            <div class="text-overflow">
+                                                <h3 style="padding: 10px" style="font-family: sans-serif"
+                                                    style="padding: 10px" style="font-size: 15px" style="margin: 10px"
+                                                    class="card-title">
+                                                    {{ $berita->judul }}</h3><br>
+                                                {{-- <p class="card-text" style="color: black">{{ $berita->isi }}</p><br> --}}
+                                                <p style="text-align: right" class="btn btn-danger">
+                                                    {{ $berita->created_at->isoFormat('dddd, D MMMM Y') }}
+                                                </p>
+                                                <a href="{{ url('berita', $berita->id) }}"
+                                                    style="background-position: right" class="btn btn-primary">Read
+                                                    More</a>
+                                            </div><br>
+                                        </div>
+                                    </strong>
+                                </div>
+                            </article>
+                        </strong>
+                    </div>
+                @endforeach
 
 
-        <!-- JavaScript Libraries -->
-        @include('user.template.js')
+
+
+            </div>
+    </div>
+    </section>
+    </section><br>
+    <!-- Footer Start -->
+    @include('user.template.footer')
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+
+
+    <!-- JavaScript Libraries -->
+    @include('user.template.js')
 </body>
 
 </html>
