@@ -73,8 +73,10 @@
 
 
                         </p>
-                        <iframe style="margin-top: -10%" allow="autoplay" height="480"
-                            src="{{ "/public/$renstra->file" }}" width="640"></iframe>
+                        <section class="col-sm-12">
+                            <p><iframe style="margin-top: -10%" allow="autoplay" height="480"
+                                    src="{{ "/public/$renstra->file" }}" width="640"></iframe></p>
+                        </section>
                         <hr>
                     </section>
 

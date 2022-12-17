@@ -41,7 +41,7 @@
             style="border-bottom-right-radius: 80px; border-bottom-left-radius: 80px;"><br>
             <div class="container text-center">
                 <h1 style="font-size: 30px" style="font-family: sans-serif" class="text-white animated zoomIn mb-3">
-                    pendidikan Detail</h1><br>
+                    Pendidikan Detail</h1><br>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
                     </ol>

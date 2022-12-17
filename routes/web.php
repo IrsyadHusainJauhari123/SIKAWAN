@@ -147,10 +147,12 @@ Route::get('/user/layanan/pensiun', [ClientController::class, 'Pensiun']);
 Route::get('/user/layanan/penelitian', [ClientController::class, 'Penelitian']);
 
 Route::get('/user/inovasi/kebudayaan', [ClientController::class, 'Kebudayaan']);
+Route::get('kebudayaan/{kebudayaan}', [ClientController::class, 'DetailKebudayaan']);
 Route::post('/Kebudayaan', [ClientController::class, 'CariKebudayaan']);
 Route::get('/user/inovasi/pariwisata', [ClientController::class, 'Pariwisata']);
 Route::post('/Pariwisata', [ClientController::class, 'CariPariwisata']);
 Route::get('pariwisata/{pariwisata}', [ClientController::class, 'DetailPariwisata']);
+Route::get('pendidikan/{pendidikan}', [ClientController::class, 'DetailPendidikan']);
 Route::get('/user/inovasi/pendidikan', [ClientController::class, 'Pendidikan']);
 Route::post('/Pendidikan', [ClientController::class, 'CariPendidikan']);
 

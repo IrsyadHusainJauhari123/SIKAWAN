@@ -203,6 +203,12 @@ class ClientController extends Controller
         return view('user.inovasi.kebudayaan', $data);
     }
 
+    function DetailKebudayaan(Kebudayaan $kebudayaan)
+    {
+        $data['kebudayaan'] = $kebudayaan;
+        return view('user.inovasi.detailkebudayaan', $data);
+    }
+
     function CariKebudayaan()
     {
         $judul = request('judul');
@@ -224,6 +230,13 @@ class ClientController extends Controller
         $data['judul'] = $judul;
         return view('user.inovasi.pendidikan', $data);
     }
+
+    function DetailPendidikan(Pendidikan $pendidikan)
+    {
+        $data['pendidikan'] = $pendidikan;
+        return view('user.inovasi.detailpendidikan', $data);
+    }
+
 
 
     // function Inovasi()

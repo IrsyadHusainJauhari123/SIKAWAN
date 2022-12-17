@@ -72,9 +72,11 @@
 
 
                         </p>
-                        <iframe style="margin-top: -10%" allow="autoplay" height="480"
-                            src="{{ "/public/$rkt->file" }}" width="640"></iframe>
-                        <hr>
+                        <section class="col-sm-12">
+                            <p><iframe style="margin-top: -10%" allow="autoplay" height="480"
+                                    src="{{ "/public/$rkt->file" }}" width="640"></iframe></p>
+                        </section>
+
                     </section>
 
                 </div>

@@ -50,7 +50,6 @@ class PendidikanController extends Controller
         $data['pendidikan'] = $pendidikan;
         return view('pendidikan.show', $data);
     }
-
     function edit(Pendidikan $pendidikan)
     {
         $data['pendidikan'] = $pendidikan;
